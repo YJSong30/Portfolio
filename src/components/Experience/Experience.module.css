@@ -1,0 +1,41 @@
+@import "../../vars.css";
+
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 73px;
+  margin-top: 180px;
+  z-index: 1;
+  scroll-margin-top: 150px;
+}
+
+.title {
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+  font-size: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.experienceGrid {
+  display: flex; /* change to grid when adding more */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.experienceBox {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left;
+  width: 400px;
+  margin-left: 30px;
+}
+
+.experienceBox img {
+  width: 90px;
+  padding-right: 30px;
+}

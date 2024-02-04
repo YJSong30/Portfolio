@@ -6,30 +6,33 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
-      <div className={styles.content}>
-        <ul className={styles.aboutItems}>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li>
-        </ul>
+      <div className={styles.aboutSkills}>
+        <div className={styles.aboutSkillsContainer}>
+          <h2 className={styles.title}>about</h2>
+          <p className={styles.description}>
+            Senior at the University of the Pacific majoring in Computer Science
+            with an interest in full-stack development and artificial
+            intelligence
+          </p>
+
+          <p className={styles.description}>
+            In my free time, I enjoy coding, listening to music, watching
+            documentaries and hanging out with friends.
+          </p>
+        </div>
+
+        <div className={styles.aboutSkillsContainer}>
+          <h2 className={styles.title}>skills</h2>
+          <p className={styles.description}>
+            Languages: Python, Javascript, HTML/CSS, Java, C, C++
+          </p>
+          <p className={styles.description}>
+            Frameworks/ Libraries: React, React Native, Node.js
+          </p>
+          <p className={styles.description}>
+            Tools: Visual Studio Code, Git, MongoDB
+          </p>
+        </div>
       </div>
     </section>
   );

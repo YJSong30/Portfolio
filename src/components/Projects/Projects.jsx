@@ -31,8 +31,7 @@ export const Projects = () => {
             <h3 className={styles.projectDisc1}>Portfolio Website</h3>
             <div class={styles.projectDisc2}>
               <p class={styles.projectDisc3}>
-                - This is my personal portfolio website. I built this website
-                using React.js
+                - This is my personal portfolio website built using React.js
               </p>
             </div>
           </div>

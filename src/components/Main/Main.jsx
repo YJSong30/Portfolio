@@ -38,9 +38,8 @@ export const Main = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Young Song</h1>
         <p className={styles.description}>
-          I'm currently a senior in my last semester as a computer science major
-          at the University of the Pacific. Reach out if you'd like to learn
-          more!
+          I'm currently a senior in my last semester as a Computer Science major
+          at University of the Pacific. Reach out if you'd like to learn more!
         </p>
         <div className={styles.flexContainer}>
           <a

@@ -17,10 +17,10 @@ export const Projects = () => {
             <h3 className={styles.projectDisc1}>RecycleThis</h3>
             <div class={styles.projectDisc2}>
               <p class={styles.projectDisc3}>
-                - Full-stack application that utilizes image/ voice recognition
+                - Full-stack application that utilizes image/voice recognition
                 for recycling needs using React Native, MongoDB
               </p>
-              <p>- CruzHacks 2024 Winner</p>
+              <p>- CruzHacks Hackathon 2024 Winner</p>
             </div>
           </div>
         </div>
@@ -31,7 +31,7 @@ export const Projects = () => {
             <h3 className={styles.projectDisc1}>Portfolio Website</h3>
             <div class={styles.projectDisc2}>
               <p class={styles.projectDisc3}>
-                - This is my personal portfolio website built using React.js
+                - Personal portfolio website built using React.js
               </p>
             </div>
           </div>
@@ -43,8 +43,7 @@ export const Projects = () => {
             <h3 className={styles.projectDisc1}>2D Fruit Ninja</h3>
             <div class={styles.projectDisc2}>
               <p class={styles.projectDisc3}>
-                - Created a 2D web version of Fruit Ninja with Java using
-                Eclipse
+                - 2D web version of Fruit Ninja with Java using Eclipse
               </p>
             </div>
           </div>

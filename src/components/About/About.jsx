@@ -10,7 +10,7 @@ export const About = () => {
         <div className={styles.aboutSkillsContainer}>
           <h2 className={styles.title}>about</h2>
           <p className={styles.description}>
-            Senior at the University of the Pacific majoring in Computer Science
+            Senior at University of the Pacific majoring in Computer Science
             with an interest in full-stack development and artificial
             intelligence
           </p>

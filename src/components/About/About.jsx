@@ -17,7 +17,7 @@ export const About = () => {
 
           <p className={styles.description}>
             In my free time, I enjoy coding, listening to music, watching
-            documentaries and hanging out with friends.
+            documentaries and spending time with family and friends.
           </p>
         </div>
 

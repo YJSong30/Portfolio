@@ -12,7 +12,13 @@ export const About = () => {
           <p className={styles.description}>
             Senior at University of the Pacific majoring in Computer Science
             with an interest in full-stack development and artificial
-            intelligence
+            intelligence.
+          </p>
+
+          <p className={styles.description}>
+            I started my college career as a Pre-Pharmacy major, but inspired by
+            the rapid advancements in technology, I made the decision to pivot
+            to Computer Science.
           </p>
 
           <p className={styles.description}>

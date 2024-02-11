@@ -2,7 +2,7 @@
 
 .container {
   background-color: white;
-  padding: 73px;
+  padding: 50px;
   margin-top: 250px;
   z-index: 1;
   scroll-margin-top: 150px;
@@ -28,5 +28,5 @@
 
 .description {
   font-size: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 }

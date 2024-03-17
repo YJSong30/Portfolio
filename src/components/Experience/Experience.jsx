@@ -11,7 +11,7 @@ export const Experience = () => {
           <img src={getImageUrl("experience/eink.jpg")} />
           <div className={styles.experienceDesc}>
             <h3>E-Ink Corporation</h3>
-            <p>Electro-Optics Co-Op</p>
+            <p>Data Engineering Co-Op</p>
             <p>July '23 - Dec '23</p>
           </div>
         </div>
